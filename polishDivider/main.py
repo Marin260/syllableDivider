@@ -109,14 +109,7 @@ for i in range(len(textCVcopy)):
                     # Substitute the pattern found with the respective string from the *rules object 
                     textCVcopy[i] = re.sub(searchPattern, rulesB[searchPattern], textCVcopy[i])
                     
-        
 
-
-for i in range(len(textCVcopy)):
-    for searchPattern in rulesB.keys(): # Check for patterns in a word
-        pass
-        #print(re.findall(searchPattern, textCVcopy[i]))
-#outputTextSyllables = textFromStdInput.join()
 for i in range(len(entryTextCopy)):
     if entryTextCopy[i] in RMFROMTEXT:
         continue
