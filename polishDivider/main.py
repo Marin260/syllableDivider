@@ -93,19 +93,29 @@ import re
 # Checking for patterns and applying changes
 for i in range(len(textCVcopy)):
     if textCVcopy[i] not in RMFROMTEXT: # avoid interpunctions
-        for searchPattern in rulesA.keys(): # Check for patterns in a word
-            if len(re.findall(searchPattern, textCVcopy[i])) > 0: # if a match exists
-                # Substitute the pattern found with the respective string from the *rules object 
-                textCVcopy[i] = re.sub(searchPattern, rulesA[searchPattern], textCVcopy[i])
-
+        # Have to repeat twice because of overlaping occurances
+        # First pass VCVCVCV will find two VCV occurances not 3
+        # Second pass V-CVCV-CV will find the last VCV 
+        for x in range(2):
+            for searchPattern in rulesA.keys(): # Check for patterns in a word
+                if len(re.findall(searchPattern, textCVcopy[i])) > 0: # if a match exists
+                    # Substitute the pattern found with the respective string from the *rules object 
+                    textCVcopy[i] = re.sub(searchPattern, rulesA[searchPattern], textCVcopy[i])
         textCVcopy[i] = re.sub("[GLOFSN]", "C", textCVcopy[i]) # Transform consonants [GLOFSN] to C
 
-        for searchPattern in rulesB.keys(): # Check for patterns in a word
-            if len(re.findall(searchPattern, textCVcopy[i])) > 0: # if a match exists
-                # Substitute the pattern found with the respective string from the *rules object 
-                textCVcopy[i] = re.sub(searchPattern, rulesB[searchPattern], textCVcopy[i])
+        for x in range(2):
+            for searchPattern in rulesB.keys(): # Check for patterns in a word
+                if len(re.findall(searchPattern, textCVcopy[i])) > 0: # if a match exists
+                    # Substitute the pattern found with the respective string from the *rules object 
+                    textCVcopy[i] = re.sub(searchPattern, rulesB[searchPattern], textCVcopy[i])
+                    
+        
 
 
+for i in range(len(textCVcopy)):
+    for searchPattern in rulesB.keys(): # Check for patterns in a word
+        pass
+        #print(re.findall(searchPattern, textCVcopy[i]))
 #outputTextSyllables = textFromStdInput.join()
 for i in range(len(entryTextCopy)):
     if entryTextCopy[i] in RMFROMTEXT:
