@@ -1,0 +1,54 @@
+re un ion | should be? -> |re u ni on
+te ur gia | should be? -> |te ur gi a
+prze dna u ko wy | should be? -> |przed na u ko wy
+na u bli żać | should be? -> |na u bli żać 
+na up lius | should be? -> |nau pli us 
+na u ti lus | should be? -> |nau ti lus
+na u to fon | should be? -> |nau to fon
+na u to lo gia | should be? -> |nau to lo gi a
+na u to lo gi czny | should be? -> |nau to lo gicz ny
+na u ty czny | should be? -> |nau tycz ny
+na u ty ka | should be? -> |nau ty ka
+za u to ma ty zo wać | should be? -> |zau to ma ty zo wać
+la ur ko wy | should be? -> |laurkowy
+sa ksa uł | should be? -> |sak sa uł
+bar ie ra | should be? -> |ba rie ra
+mil iard | should be? -> |mi liard
+bian dria | should be? -> |bi an dri a
+mil iam per | should be? -> |mi li am per
+pol ie ster | should be? -> |po li e ster
+ko pii | should be? -> |ko pi i
+ko me dii | should be? -> |ko me di i
+mo nar chii | should be? -> |mo nar chi i
+ek spia cja | should be? -> |eks pi a cja
+kwie tyzm | should be? -> |kwi e tyzm
+klient | should be? -> |kli ent
+mia sten ia | should be? -> |mi a ste ni a
+pat riar cha | should be? -> |pa tri ar cha
+trio | should be? -> |tri o 
+triumf | should be? -> |tri umf
+prio ry tet | should be? -> |pri o ry tet
+pat rio ta | should be? -> |pa tri o ta
+ziem ia | should be? -> |zie mia
+sial | should be? -> |si al
+wel wi czia | should be? -> |wel wi czi a
+man ia | should be? -> |ma ni a
+lin ia | should be? -> |li ni a
+sen ior | should be? -> |se ni or
+jun ior | should be? -> |ju ni or
+kan ion | should be? -> |ka ni on 
+kom pan ion | should be? -> |kom pa ni on
+mi len ium | should be? -> |mi le ni um
+a lu min ium | should be? -> |a lu mi ni um
+Nad miar | should be? -> |nad miar
+o dmo wa | should be? -> |Od mo wa
+Po drę cznik | should be? -> |Pod ręcz nik
+po dwa żyć | should be? -> |Pod wa żyć
+po kład | should be? -> |Po kład
+por wać | should be? -> |Po rwać
+za pła ta | should be? -> |Za pła ta
+Zan ies ie | should be? -> |Za nie sie
+za pię ty | should be? -> |Za pię ty
+Zas trze lić | should be? -> |Za strze lić
+In fla cja | should be? -> |In flac ja
+sło wnik | should be? -> |Słow nik
