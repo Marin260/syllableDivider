@@ -1,0 +1,21 @@
+input letter: z -> corespondingLetter: F
+input letter: a -> corespondingLetter: V
+input letter: u -> corespondingLetter: V
+input letter: t -> corespondingLetter: O
+input letter: o -> corespondingLetter: V
+input letter: m -> corespondingLetter: N
+input letter: a -> corespondingLetter: V
+input letter: t -> corespondingLetter: O
+input letter: y -> corespondingLetter: V
+input letter: z -> corespondingLetter: F
+input letter: o -> corespondingLetter: V
+input letter: w -> corespondingLetter: F
+input letter: a -> corespondingLetter: V
+input letter: ć -> corespondingLetter: F
+
+FVVOVNVOVFVFVF
+FVVOVNVOVFVFVF
+CVVCVCVCVCVCVC
+CV-V-CVCV-CVCV-CVC
+CV-V-CV-CV-CV-CV-CVC
+--------------

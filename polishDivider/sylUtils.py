@@ -1,3 +1,4 @@
+from config import *
 # Remove interpunction characters [., !, ?,...]
 def removeInterpunct(elToRemoveFromStr: str, text: str):
     text = text.replace(elToRemoveFromStr, " " + elToRemoveFromStr + " ")
@@ -7,7 +8,6 @@ def removeInterpunct(elToRemoveFromStr: str, text: str):
 
 # Input letter -> output letter in CV notation
 def getCorespondingLetter(inputLetter: str, dictOfValues: dict):
-    print("input letter:", inputLetter)
     corespondingLetter = "X" # Default values... need to change this later
     for group in dictOfValues.values():
         if inputLetter in group:
@@ -16,7 +16,6 @@ def getCorespondingLetter(inputLetter: str, dictOfValues: dict):
             # where index is touple in list of values
             corespondingLetter = list(dictOfValues.keys())[list(dictOfValues.values()).index(group)]
             break
-    print("corespondingLetter:", corespondingLetter)
     return corespondingLetter
 
 
